@@ -1,0 +1,10 @@
+server:
+  port: 1110
+ 
+management.server.port: 1111
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
